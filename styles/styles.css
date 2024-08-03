@@ -1,6 +1,6 @@
 
 *:root {
-    --cor-de-link: #000;
+    --cor-de-link: #0000;
     --cor-azul: rgba(0, 0, 0, 0.25);
     --cor-fonte-principal: black;
     --fonte-principal: "Poppins";
@@ -38,7 +38,7 @@ header {
     
 }
 
-.header__logo__icones {
+.header__logo__icons {
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center;   /* Centraliza verticalmente */
@@ -47,18 +47,18 @@ header {
  
 }
 
-.header__logo__icones img {
+.header__logo__icons img {
     border-radius: .5em;
 }
 
-.header__icones ul {
+.header__icons ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     
 }
 
-.header__icones li {
+.header__icons li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -66,11 +66,11 @@ header {
     
 }
 
-.header__icones img {
+.header__icons img {
     width: 2em;
 }
 
-.header__icones h5 {
+.header__icons h5 {
     margin-left: 1em;
     color: var(--cor-fonte-principal);
 }
