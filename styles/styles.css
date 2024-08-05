@@ -2,7 +2,9 @@
 *:root {
     --cor-de-link: #0000;
     --cor-azul: rgba(0, 0, 0, 0.25);
+    --cor-dourado: #d49801;
     --cor-fonte-principal: black;
+    --cor-fonte-branco: #FFFFFF;
     --fonte-principal: "Poppins";
     --fonte-secundaria: "Josefin sans";
     --cor-de-fundo: #e6bee3;
@@ -18,12 +20,11 @@ body {
     font-weight: 400;
     margin: 0;
     padding: 0;
-    line-height: 2;
-
 }
 
 ol, ul, li, p {
     list-style: none;
+    padding: 0;
 }
 
 a, p {
@@ -36,86 +37,146 @@ a, p {
 header {
     display: block;
     
+        
 }
 
-.header__logo__icons {
+.header__icons__logo {
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center;   /* Centraliza verticalmente */
-    height: 10vh; /* Altura da div para demonstrar a centralização vertical */
-    margin: 1.5em;
- 
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.header__logo__icons img {
-    border-radius: .5em;
+.header__icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 1em;
+
 }
 
 .header__icons ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    
+    justify-content: space-between;
+    margin-right: 1.5em;
+   
+   
 }
 
 .header__icons li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 1em;
-    
+    padding: 1em;
+
 }
 
 .header__icons img {
-    width: 2em;
+    width: 1.5em;
+   
 }
 
 .header__icons h5 {
-    margin-left: 1em;
-    color: var(--cor-fonte-principal);
+    padding: 1em;
+    margin-top: 2em;
+
+}
+
+.header__logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+    margin-top: 1.5em;
+
+}
+
+.header__logo img {
+    border-radius: .5em;
+    height: 8vh;
+        
 }
 
 .header__pesquisa {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    margin-top: 3.1em;
 }
 
-.header__pesquisa  ul {
+.header__pesquisa ul {
     display: flex;
     flex-direction: row;
     
- }
+}
 
 .pesquisar__input {
-    height: 3em;
-    width: 44em;
-    margin: .4em 1.5em;
-    border-radius: 1em;
+    height: 2em;
+    width: 18em;
+    border-radius: 5em;
     border-color: var(--cor-azul);
+   
 }
 
 .header__pesquisa img {
-    margin-top: .3em;
-    width: 2.5em;
-    margin-left: .5em;
+   padding: 4%;
+   margin-top: .3em;
+   margin-left: .5em;
+    
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 3em;
+   
+    
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--cor-dourado);
+    
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--cor-dourado);
+   
+
+}
+
+.menu li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 2em;
+    margin-left: 2em;
+    font-weight: 700;
+    background-color: var(--cor-dourado);
+    color: var(--cor-fonte-branco);
+    
 }
 
 /*CORPO */
 
 .banner {
+    margin: .2em .5em 2em .5em;
     text-align: center;
+    
 }
 
-.banner__titulo {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: .1rem;
-    margin-top: .1rem;
+.banner__titulo h2 {
+    
 }
 
-.banner__texto {
-    margin: .2em .5em 2.5em .5em;
-    font-weight: 500;
+.banner__texto p {
+    text-align: center;
 }
 
 .carrossel {
