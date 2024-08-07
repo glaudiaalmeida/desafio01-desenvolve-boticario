@@ -12,60 +12,60 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" 
     rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="./styles/styles.css">
-
+    <link rel="stylesheet" href="styles.css">
     <title>Brazilian Cosmetic Blend</title>
 </head>
 <body>
-   <header>
-        <div class="header__icons__logo">
-            <section class="header__logo">
+   <header class="main__header">
+        <div class="header__logo__pesquisa__icones">
+            <section class="logo">
                 <img src="assets/logo.svg" alt="Logo Brazilian Cosmetic Blend">
             </section>
-            <section class="header__pesquisa">
+            <section class="pesquisa">
                 <ul>
                     <li>
                         <form action="">
-                            <input type="search" placeholder="Pesquisar" id="pesquisar" class="pesquisar__input">
+                            <div class="pesquisa__input">
+                                <input type="search-input" placeholder="Qual a busca para hoje?" id="pesquisar" class="pesquisar__input">
+                                <span id="clear__input">x</span>
+                            </div>
                             <label for="pesquisar" class="pesquisar__label"></label>
                         </form>
                     </li>
                     <li>
-                        <img src="assets/Lupa.svg" alt="lupa">
+                        <a href="#"><img src="assets/Lupa.svg" alt="lupa"></a>
                     </li>
                 </ul>
             </section>
-            <section class="header__icons"> 
-                <ul> 
-                    <li>
-                        <img src="assets/usuario.svg" alt="Usuário">
-                        <h5>Seus Pedidos</h5>
-                    </li>
-                    <li>
-                        <img src="assets/bag.svg" alt="Suas Compras">
-                        <h5>Sua Sacola</h5>
-                    </li>
+            <section class="icones">
+                <ul>
+                    <li><a href="#"><img src="assets/usuario.svg" alt="Meus Pedidos"></a></li>
+                    <li><a href="#"><img src="assets/sacola.svg" alt="Suas Compras"></a></li>
                 </ul>
             </section>
         </div>
         <div class="header__menu">
-            <section class="menu">
+            <nav class="menu">
                 <ul>
-                    <li>Perfumes</li>
-                    <li>Lançamentos</li>
-                    <li>Presentes</li>
-                    <li>Mais Vendidos</li>
-                    <li>Maquiagem</li>
-                    <li>Corpo</li>
-                    <li>Cabelos</li>
-                    <li>Barba</li>
+                    <li><a href="#">Perfumes</a></li>
+                    <li><a href="#">Lançamentos</a></li>
+                    <li><a href="#">Presentes</a></li>
+                    <li><a href="#">Maquiagem</a></li>
+                    <li><a href="#">Corpo</a></li>
+                    <li><a href="#">Cabelos</a></li>
+                    <li><a href="#">Barba</a></li>
                 </ul>
-            </section>
+            </nav>
         </div>
     </header>
 
+
+
+
+
+
     <main>
-        <nav>
+        <div class="central">
             <section class="banner">
                 <h2 class="banner__titulo">Cuidar de você é a melhor opção para sua auto-estima!</h2>
                 <p class="banner__texto">Encontre os melhores cosméticos em nossa loja .</p>
@@ -119,7 +119,7 @@
                     </p>
                 </div>
             </section>
-        </nav>
+        </div>
     </main>
     <footer class="rodape">
         <h4 class="rodape__titulo">Curso FullStack - JavaScript - Projeto Desenvolve  - Grupo Boticário - 2024</h4>

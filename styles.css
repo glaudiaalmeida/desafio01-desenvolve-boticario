@@ -1,0 +1,64 @@
+@import url('/styles/header.css');
+@import url('/styles/main.css');
+@import url('/styles/footer.css');
+
+*:root {
+    --cor-de-link: #0000;
+    --cor-azul: #00000040;
+    --cor-dourado: #fcd267;
+    --cor-dourado-claro: #fcde93;
+    --cor-fonte-principal: black;
+    --cor-fonte-branco: #FFFFFF;
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "Josefin sans";
+    --cor-de-fundo: #e6bee3;
+    --cor-de-fundo-nav: #f1cde1;    
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    color: var(--cor-fonte-principal);
+    font-size: 1em;
+    font-weight: 400;
+
+}
+
+a, p {
+    color: var(--cor-de-link);
+}
+
+
+@media screen and (mind-width: 1024px) {
+   
+    header {
+        display: block;
+    }
+    .header__logo {
+        justify-content: center;
+    }
+
+    .pesquisar__input {
+        width: 1.2rem;
+    }
+
+    .saiba__mais__imagens {
+        display: none;
+        
+    }
+
+}
+
+@media screen and (min-with: 1728px) {
+
+    .carrossel__lancamentos__imagem {
+
+    }
+
+    .saiba__mais__imagens {
+        display: none;
+        width: 10%;
+    }
+
+}
