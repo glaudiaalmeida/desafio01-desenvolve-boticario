@@ -1,0 +1,185 @@
+/*CABECALHO*/
+.main__header{
+    display: block;
+           
+}
+
+.header__logo__pesquisa__icones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1em;
+    
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: .5em;
+  
+}
+
+.logo img {
+    border-radius: .5em;
+    height: 8vh;
+    margin-top: .5em;
+        
+}
+
+.pesquisa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: auto;
+          
+}
+
+.pesquisa ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0.5em;
+    
+}
+
+.pesquisa li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+        
+}
+
+.pesquisa form {
+    display: flex;
+    flex-direction: row;
+    padding: .5em;
+    margin-top: .5em;
+    border-radius: 12px;
+    
+}
+
+.pesquisa input {
+    border-radius: 14px;
+    background-color: transparent;
+    height: 3vh;
+    width: 40vh;
+     
+}
+
+.clear__input {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+  color: #999;
+    
+}
+
+.clear__input:hover {
+    color: #333;
+}
+
+.pesquisa img {
+    margin-top: 1em;
+
+}
+
+
+
+.icones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+}
+
+.icones ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+      
+}
+
+.icones li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: var(--cor-fonte-principal);
+}
+
+.icones img {
+    text-decoration: none;
+    margin: 1em;
+   
+}
+
+
+
+
+
+
+
+
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--cor-dourado);
+    margin: 1.5em;
+    
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+        
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--cor-dourado);
+    
+}
+
+.menu li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+    margin-right: 2em;
+    margin-left: 2em;
+    font-weight: 700;
+    background-color: var(--cor-dourado);
+    color: var(--cor-fonte-principal);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-shadow: 2px 2px 5px var(--cor-dourado-claro);
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--cor-fonte-principal);
+    text-shadow: 2px 2px 5px var(--cor-dourado-claro);
+}
+
+.menu li:hover {
+    background-color:var(--cor-dourado-claro); /* Cor ao passar o mouse */
+  }
+
+

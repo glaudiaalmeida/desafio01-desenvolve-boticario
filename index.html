@@ -17,35 +17,12 @@
     <title>Brazilian Cosmetic Blend</title>
 </head>
 <body>
-    <header>
-        <div class="header__logo__icons">
-            <section class="header__icons">
-                <ul>
-                    <li>
-                        <img src="assets/Menu.svg" alt="Menu Principal">
-                        <h5>Menu</h5>
-                    </li>
-                    <li>
-                        <img src="assets/usuario.svg" alt="Usuário">
-                        <h5>Entrar</h5>
-                    </li>
-                </ul>
-            </section> 
-            <img src="./assets/Untitledlogo.png" alt="Brazilian cosmetic Blend">
-            <section class="header__icons">
-                <ul>
-                    <li>
-                        <img src="assets/heart.svg" alt="Favoritar produto">
-                        <h5>Favoritos</h5>
-                    </li>
-                    <li>
-                        <img src="assets/bag.svg" alt="Adicionar ao carrinho">
-                        <h5>Sua Sacola</h5>
-                    </li>
-                </ul>
-            </section> 
-        </div>
-        <div class="header__pesquisa">
+   <header>
+        <div class="header__icons__logo">
+            <section class="header__logo">
+                <img src="assets/logo.svg" alt="Logo Brazilian Cosmetic Blend">
+            </section>
+            <section class="header__pesquisa">
                 <ul>
                     <li>
                         <form action="">
@@ -57,63 +34,93 @@
                         <img src="assets/Lupa.svg" alt="lupa">
                     </li>
                 </ul>
+            </section>
+            <section class="header__icons"> 
+                <ul> 
+                    <li>
+                        <img src="assets/usuario.svg" alt="Usuário">
+                        <h5>Seus Pedidos</h5>
+                    </li>
+                    <li>
+                        <img src="assets/bag.svg" alt="Suas Compras">
+                        <h5>Sua Sacola</h5>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class="header__menu">
+            <section class="menu">
+                <ul>
+                    <li>Perfumes</li>
+                    <li>Lançamentos</li>
+                    <li>Presentes</li>
+                    <li>Mais Vendidos</li>
+                    <li>Maquiagem</li>
+                    <li>Corpo</li>
+                    <li>Cabelos</li>
+                    <li>Barba</li>
+                </ul>
+            </section>
         </div>
     </header>
-    <nav>
-        <section class="banner">
-            <h2 class="banner__titulo">Cuidar de você é a melhor opção para sua auto-estima!</h2>
-            <p class="banner__texto">Encontre em nossa loja os melhores cosméticos.</p>
-        </section>
-        <section class="carrossel">
-            <h2 class="carrossel__titulo">Lançamentos</h2>
-            <div class="carrossel__lancamentos">
-                <div class="carrossel__lancamentos__imagem">
-                    <img src="./assets/19.jpg" alt="">
-                    <h6>Cabelos</h6>
+
+    <main>
+        <nav>
+            <section class="banner">
+                <h2 class="banner__titulo">Cuidar de você é a melhor opção para sua auto-estima!</h2>
+                <p class="banner__texto">Encontre os melhores cosméticos em nossa loja .</p>
+            </section>
+            <section class="carrossel">
+                <h2 class="carrossel__titulo">Lançamentos</h2>
+                <div class="carrossel__lancamentos">
+                    <div class="carrossel__lancamentos__imagem">
+                        <img src="./assets/19.jpg" alt="">
+                        <h6>Cabelos</h6>
+                    </div>
+                    <div class="carrossel__lancamentos__imagem">
+                        <img src="./assets/6.jpg" alt="">
+                        <h6>Perfumes</h6>
+                    </div>
+                    <div class="carrossel__lancamentos__imagem">
+                        <img src="./assets/beleza-4.jpg" alt="">
+                        <h6>Acessórios</h6>
+                    </div>
+                    <div class="carrossel__lancamentos__imagem">
+                        <img src="./assets/beleza-5.jpg" alt="">
+                        <h6>Ageless</h6>
+                    </div>
+                    <div class="carrossel__lancamentos__imagem">
+                        <img src="./assets/beleza-2.jpg" alt="">
+                        <h6>Sabonetes</h6>
+                    </div>
                 </div>
-                <div class="carrossel__lancamentos__imagem">
-                    <img src="./assets/6.jpg" alt="">
-                    <h6>Perfumes</h6>
+            </section>
+            <section class="saiba__mais">
+                <h3 class="saiba__mais__titulo">Talvez você também se interesse por...</h3>
+                <div class="saiba__mais__imagens">
+                    <img src="./assets/15.jpg" class="imagem de dois blush">
+                    <img src="./assets/12.jpg" class="imagem de batom, esmalte e rímel">
+                    <img src="./assets/13.jpg" class="imagem de blush, sombras e pinceis para maquiagem">
+                    <img src="./assets/14.jpg" class="imagem de sabonetes com decoração em toalhas de banho">
+                    <img src="./assets/16.jpg" class="imagem de sombras de cores branca, marrom e rosa">
+                    <img src="./assets/20.jpg" class="maquiagens diversas">
+                    <img src="./assets/22.jpg" class="maquiagens diversas">
                 </div>
-                <div class="carrossel__lancamentos__imagem">
-                    <img src="./assets/beleza-4.jpg" alt="">
-                    <h6>Acessórios</h6>
+                <div class="saiba__mais_texto">
+                    <a href="#" class="botao__saiba__mais">Saiba mais</a>
+                </div>    
+            </section>
+            <section class="contato">
+                <div class="contato__descricao">
+                    <p class="contato__texto">
+                        Fique conosco - receba nossas novidades, promoções e outros.
+                        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+                        <a href="#"><img src="./assets/email.png" alt="envelope para cadastrar seu email"></a>
+                    </p>
                 </div>
-                <div class="carrossel__lancamentos__imagem">
-                    <img src="./assets/beleza-5.jpg" alt="">
-                    <h6>Ageless</h6>
-                </div>
-                <div class="carrossel__lancamentos__imagem">
-                    <img src="./assets/beleza-2.jpg" alt="">
-                    <h6>Sabonetes</h6>
-                </div>
-            </div>
-        </section>
-        <section class="saiba__mais">
-            <h3 class="saiba__mais__titulo">Talvez você também se interesse por...</h3>
-            <div class="saiba__mais__imagens">
-                <img src="./assets/15.jpg" class="imagem de dois blush">
-                <img src="./assets/12.jpg" class="imagem de batom, esmalte e rímel">
-                <img src="./assets/13.jpg" class="imagem de blush, sombras e pinceis para maquiagem">
-                <img src="./assets/14.jpg" class="imagem de sabonetes com decoração em toalhas de banho">
-                <img src="./assets/16.jpg" class="imagem de sombras de cores branca, marrom e rosa">
-                <img src="./assets/20.jpg" class="maquiagens diversas">
-                <img src="./assets/22.jpg" class="maquiagens diversas">
-            </div>
-            <div class="saiba__mais_texto">
-                <a href="#" class="botao__saiba__mais">Saiba mais</a>
-            </div>    
-        </section>
-        <section class="contato">
-            <div class="contato__descricao">
-                <p class="contato__texto">
-                    Fique conosco - receba nossas novidades, promoções e outros.
-                    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
-                    <a href="#"><img src="./assets/email.png" alt="envelope para cadastrar seu email"></a>
-                </p>
-            </div>
-        </section>
-    </nav>
+            </section>
+        </nav>
+    </main>
     <footer class="rodape">
         <h4 class="rodape__titulo">Curso FullStack - JavaScript - Projeto Desenvolve  - Grupo Boticário - 2024</h4>
     </footer>
