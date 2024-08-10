@@ -1,25 +1,84 @@
 /*CORPO */
 
-.central {
+.main__container {
+    display: block;
 
 }
 
-.banner {
-    margin: .2em .5em 2em .5em;
+.cadastro {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   padding: .5em;
+   background-color: var(--cor-rosa);
+   border-radius: .5em;
+   margin: .5em;
+   
+}
+
+.cadastro__titulo {
+    margin: 1em;
     text-align: center;
+
+}
+
+.cadastro__titulo h4{
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+
     
 }
 
-.banner__titulo h2 {
-    font-weight: 300;
+.cadastro__titulo h6{
+    padding: 1em;
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+    
     
 }
 
-.banner__texto p {
-    font-weight: 300;
+.input__email {
+    display: flex;
+    justify-content: space-evenly;
+
 }
 
-.carrossel {
+.input__email input {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: var(--fonte-principal);
+    color: var(--cor-fonte-principal);
+    gap: 10px;
+    width: 70em;
+    height: 1em;
+    padding: 1em;
+    font-size: .4em;
+    font-weight: 700;
+    text-align: left;
+    border-radius: 2em;
+    border: .2em solid var(--cor-dourado);
+    
+}
+
+
+ .input__email img {
+    display: flex;
+    justify-content: space-evenly;
+    border: 3px solid;
+ }
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+.content__carrossel {
     background: var(--cor-de-fundo-nav);
     border-radius: 10px;
     margin: 1em;
@@ -80,17 +139,4 @@
 .contato__texto {
     font-weight: 500; /*negrito*/
     margin:  3em; /*o primeiro se refere a em cima e embaixo e o segundo aos lados*/
-}
-
-.contato__email {
-   padding: 1em;
-   border: 1px solid;
-   border-radius: 24px;
-   gap: 10px;
-   width: 45%;
-}
-.contato__email::placeholder {
-    font-family: var(--fonte-principal);
-    color: var(--cor-fonte-principal);
-    padding-left: 2em;
 }

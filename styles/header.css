@@ -1,6 +1,7 @@
 /*CABECALHO*/
 .main__header{
     display: block;
+    margin: .5em;
            
 }
 
@@ -8,7 +9,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 1em;
+    padding: .5em;
     
 }
 
@@ -16,170 +17,137 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: .5em;
-  
+    
 }
 
 .logo img {
-    border-radius: .5em;
+    border-radius: .8em;
     height: 8vh;
-    margin-top: .5em;
+    margin: 0;
         
 }
 
-.pesquisa {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: auto;
-          
+.header__pesquisa {
+    margin-left: 1em;
+   
 }
 
-.pesquisa ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 0.5em;
-    
+.header__pesquisa h6 {
+    margin: 1em ;
+    text-align: center;
+
 }
 
-.pesquisa li {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-        
-}
-
-.pesquisa form {
-    display: flex;
-    flex-direction: row;
-    padding: .5em;
-    margin-top: .5em;
-    border-radius: 12px;
-    
-}
-
-.pesquisa input {
-    border-radius: 14px;
+.pesquisar__input {
+    border-radius: 2em;
     background-color: transparent;
     height: 3vh;
-    width: 40vh;
+    width: 50vh;
+    text-align: center;
+    border: .2em solid var(--cor-dourado);
+    font-family: var(--cor-fonte-principal);
+    font-size: .7em;
+    font-weight: 700;
+    background: url("/assets/lupa.svg") no-repeat;
+    background-position: 11em .3em;
      
 }
 
-.clear__input {
-  display: none;
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  cursor: pointer;
-  font-size: 18px;
-  color: #999;
-    
+.pesquisar__input:focus {
+    outline: none;
 }
+
+.clear__input {
+    display: none; /* Ocultar por padrão */
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color: #999;
+}
+      
 
 .clear__input:hover {
-    color: #333;
+    color: #f7f0f0;
 }
-
-.pesquisa img {
-    margin-top: 1em;
-
-}
-
-
 
 .icones {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     
-    
 }
 
-.icones ul {
+.icones ul, li {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
-      
+       
 }
 
-.icones li {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-decoration: none;
-    color: var(--cor-fonte-principal);
+.icones a:hover {
+    transform: scale(1.3);
+    
 }
 
 .icones img {
     text-decoration: none;
-    margin: 1em;
-   
+    margin: 0 1em;
+    transition: transform 0.3s;
+
 }
-
-
-
-
-
-
-
-
 
 .header__menu {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 5vh;
     background-color: var(--cor-dourado);
-    margin: 1.5em;
-    
+   
 }
-
 
 .menu {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-        
+    margin: .5em 0;
+            
 }
 
 .menu ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: var(--cor-dourado);
     
-}
-
-.menu li {
+    
+}.menu li {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     text-decoration: none;
-    margin-right: 2em;
-    margin-left: 2em;
+    margin: .5em 2.2em;
     font-weight: 700;
-    background-color: var(--cor-dourado);
     color: var(--cor-fonte-principal);
-    color: #fff;
     border: none;
-    padding: 10px 20px;
     cursor: pointer;
-    font-size: 16px;
-    text-shadow: 2px 2px 5px var(--cor-dourado-claro);
-    
+            
 }
 
 .menu a {
     text-decoration: none;
     color: var(--cor-fonte-principal);
-    text-shadow: 2px 2px 5px var(--cor-dourado-claro);
+    text-shadow: 2px 2px 5px var(--cor-de-sobreamento);
+    font-weight: bold;
+    transition: font-size 0.3s, text-shadow 0.3s;
 }
 
-.menu li:hover {
-    background-color:var(--cor-dourado-claro); /* Cor ao passar o mouse */
+.menu a:hover {
+    font-size: 1.5em;
+    
   }
 
 
