@@ -1,0 +1,153 @@
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 16vh;
+}
+
+.banner__left {
+    width: 20vw;
+    margin: 1.5em 0 0 2.5em;
+    text-align: center;
+    animation: pulse 4s infinite;
+    
+}
+
+.banner__text h4 {
+    display: flex;
+    flex-direction: row;
+    font-size: .7em;
+    font-weight: 700;
+    font-family: var(--fonte-principal);
+    white-space: nowrap;
+    color: var(--cor-fonte-principal);
+    text-decoration: underline;
+    margin: .4em 3em;
+    letter-spacing: .1em;
+    
+}
+
+.banner__text h2 {
+    display: flex;
+    flex-direction: row;
+    letter-spacing: .1em;
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: var(--fonte-principal);
+    white-space: nowrap;
+    color: var(--cor-dourado);
+    text-shadow: 5px 5px 5px var(--cor-fonte-principal);
+   
+}
+
+.banner__center {
+    width: 100vw;
+    margin-left: 4em;
+    overflow: hidden;
+
+}
+
+.content  {
+    width: 50hw;
+    background-color: var(--cor-dourado);
+    overflow: hidden;
+    border-radius: 1em;
+
+}
+
+.slider__container {
+    
+    
+    
+}
+
+.slider__container input{
+    display: none;
+
+}
+
+.slides img {
+        
+
+}
+
+.slide {
+    
+}
+
+.navigation {
+    position: absolute;
+    bottom: 5em;
+    left: 10em;
+    display: flex;
+
+}
+
+.bar {
+    width: 1em;
+    height: 1em;
+    border: .2em white;
+    margin: .5em;
+}
+
+.banner__text h6 {
+    letter-spacing: .1em;
+    font-family: var(--fonte-secundaria);
+    margin: .5em ;
+    padding: .2em;
+    cursor: pointer;
+
+}
+
+
+.banner__right {
+    width: 10vw;
+    align-items: center;
+    margin: 1.5em 10em 0 0;
+    padding: 0;
+    animation: pulse 4s infinite;
+    
+    
+}
+
+.banner__text h3 {
+    text-align: center;
+    padding: .5em;
+    font-size: 1.5em;
+    letter-spacing: .1em;
+    font-weight: 700;
+    font-family: var(--fonte-principal);
+    white-space: nowrap;
+    color: var(--cor-rosa);
+    text-shadow: 5px 5px 5px var(--cor-fonte-principal);
+}
+
+.banner__text h4 {
+    text-align: center;
+    margin-left: 5em;
+    padding: .5em;
+    font-size: .5em;
+    text-decoration: none;
+    letter-spacing: .1em;
+    font-weight: 700;
+    font-family: var(--fonte-principal);
+    white-space: nowrap;
+    color: var(--cor-fonte-principal);
+   
+    
+}
+
+.banner__text h5 {
+    text-align: center;
+    margin-left: 3em;
+    padding: .5em;
+    font-size: .5em;
+    letter-spacing: .1em;
+    font-weight: 700;
+    font-family: var(--fonte-principal);
+    white-space: nowrap;
+    color: var(--cor-fonte-principal);
+   
+    
+}

@@ -16,18 +16,18 @@
 </head>
 <body>
    <header class="main__header">
-        <div class="header__logo__pesquisa__icones">
+        <div class="header__logo__search__icons">
             <section class="logo">
-                <img src="assets/logo.svg" alt="Logo Brazilian Cosmetic Blend">
+                <img src="assets/logo.svg" alt="logo Brazilian Cosmetic Blend">
             </section>
-            <section class="header__pesquisa">
+            <section class="header__search">
                 <h6>Cuidar de você é a melhor opção para sua auto-estima!</h6>
-                <input type="search" placeholder="Qual a sua busca para hoje?" id="pesquisar" class="pesquisar__input">
+                <input type="search" placeholder="Qual a sua busca para hoje?" id="search" class="search__input">
             </section>    
-            <section class="icones">
+            <section class="icons">
                 <ul>
-                    <li><a href="#"><img src="assets/usuario.svg" alt="Meus Pedidos"></a></li>
-                    <li><a href="#"><img src="assets/sacola.svg" alt="Suas Compras"></a></li>
+                    <li><a href="#"><img src="assets/usuario.svg" class="user" alt="Entrar"></a></li>
+                    <li><a href="#"><img src="assets/sacola.svg" class="bag" alt="Suas Compras"></a></li>
                 </ul>
             </section>
         </div>
@@ -47,100 +47,174 @@
     </header>
     <main class="main__container">
         <div class="banner">
-            <section class="banner__inicio">
-                <section class="banner__sublinhado">
+            <section class="banner__left">
+                <section class="banner__text">
                     <a href="#"><h4>Dia dos</h4></a>
                 </section>
-                <section class="banner__dourado">
+                <section class="banner__text">
                     <a href="#"><h2>Pais!</h2>
                 </section>
-                <section class="banner__sublinhado">
+                <section class="banner__text">
                     <a href="#"><h4>com</h4></a>
                 </section>
-                <section class="banner__dourado">
-                    <a href="#"><h3>Elegância!</h3></a>
+                <section class="banner__text">
+                    <a href="#"><h2>Elegância!</h2></a>
                 </section>
             </section>
-            <section class="banner__centro">
-                <section class="banner__cupom">
-                    <a href="#"><h2>Ganhe 15% OFF</h2></a>
+            <section class="banner__center">
+                <div class="content">
+                    <div class="slider__container">
+
+                        <input class="input" type="radio" name="slide" id="slide1">
+                        <input class="input" type="radio" name="slide" id="slide2">
+                        <input class="input" type="radio" name="slide" id="slide3">
+                        <input class="input" type="radio" name="slide" id="slide4">
+                        <input class="input" type="radio" name="slide" id="slide5">
+                        <input class="input" type="radio" name="slide" id="slide6">
+
+                        <div class="slides">
+                            <div class="slide">
+                                <img src="/assets/carrossel-dia-dos-pais/banner-1.svg" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="/assets/carrossel-dia-dos-pais/banner-2.svg" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="/assets/carrossel-dia-dos-pais/banner-3.svg" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="/assets/carrossel-dia-dos-pais/banner-4.svg" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="/assets/carrossel-dia-dos-pais/banner-5.svg" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="/assets/carrossel-dia-dos-pais/banner-6.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <label class="bar" for="slide2"></label>
+                    <label class="bar" for="slide3"></label>
+                    <label class="bar" for="slide4"></label>
+                    <label class="bar" for="slide5"></label>
+                    <label class="bar" for="slide6"></label>                            
+                </div>
+                <section class="text">
                     <h6>O presente especial para ele está aqui. Veja as nossas dicas!</h6>
                 </section>
             </section>
-            <section class="banner__fim">
-                <section class="banner__validade">
-                    <a href="#"><h5>Ofertas válidas até 11/08/24,</h5></a>
+
+
+            <section class="banner__right">
+                <section class="banner__text">
+                    <a href="#"><h3>Ganhe 15% OFF</h3></a>
+                </section>
+                <section class="banner__text">
+                    <a href="#"><h4>Ofertas válidas até 11/08/24,</h4></a>
+                </section>
+                <section class="banner__text">
                     <a href="#"><h5> ou enquanto durarem os estoques.</h5></a>
                 </section>
             </section>
         </div>
-        
         <div class="cadastro">
             <section class="cadastro__input">
                 <section class="cadastro__titulo">
-                    <h4>Fique conosco - receba nossas novidades, promoções e outros.</h4>
-                    <h6>Cadastre-se e ganhe R$ 50,00 na Primeira Compra</h6>
+                    <section class="titulo__h4">
+                       <h4>Fique conosco - receba nossas novidades, promoções e outros.</h4>
+                    </section>
+                    <section class="titulo__h6">
+                        <h6>Cadastre-se e ganhe R$ 50,00 na Primeira Compra</h6>
+                    </section>
                 </section>
-            </section>
-            <section class="input__email">
-                <input type="email" placeholder="Seu e-mail" class="contato__email">
-                <a href="#"><img src="./assets/email.png" alt="envelope para cadastrar seu email"></a>
+                <section class="input">
+                    <section class="input__email">
+                        <input type="email" placeholder="Seu e-mail" class="contato__email">
+                    </section>
+                    <section class="input__enviar">
+                        <a href="#"><img src="./assets/enviar.svg" alt="enviar cadastro de e-mail"></a>
+                    </section>
+                </section>
             </section>
         </div>
-
-            <nav>
-                <section class="banner">
-                    <p class="banner__texto">Encontre em nossa loja os melhores cosméticos.</p>
-                </section>
-                <section class="carrossel">
-                    <h2 class="carrossel__titulo">Lançamentos</h2>
-                    <div class="carrossel__lancamentos">
-                        <div class="carrossel__lancamentos__imagem">
-                            <img src="./assets/19.jpg" alt="">
-                            <h6>Cabelos</h6>
-                        </div>
-                        <div class="carrossel__lancamentos__imagem">
-                            <img src="./assets/6.jpg" alt="">
-                            <h6>Perfumes</h6>
-                        </div>
-                        <div class="carrossel__lancamentos__imagem">
-                            <img src="./assets/beleza-4.jpg" alt="">
-                            <h6>Acessórios</h6>
-                        </div>
-                        <div class="carrossel__lancamentos__imagem">
-                            <img src="./assets/beleza-5.jpg" alt="">
-                            <h6>Ageless</h6>
-                        </div>
-                        <div class="carrossel__lancamentos__imagem">
-                            <img src="./assets/beleza-2.jpg" alt="">
-                            <h6>Sabonetes</h6>
-                        </div>
+        <div class="lancamentos">
+            <div class="lancamentos__container">
+                <div class="titulo">
+                    <h2>Lançamentos</h2>
+                </div>
+                <div class="slides">
+                    <div class="slide">
+                        <img src="./assets/19.jpg" alt="">
+                        <h6>Cabelos</h6>
                     </div>
-                </section>
-                <section class="saiba__mais">
-                    <h3 class="saiba__mais__titulo">Talvez você também se interesse por...</h3>
-                    <div class="saiba__mais__imagens">
-                        <img src="./assets/15.jpg" class="imagem de dois blush">
-                        <img src="./assets/12.jpg" class="imagem de batom, esmalte e rímel">
-                        <img src="./assets/13.jpg" class="imagem de blush, sombras e pinceis para maquiagem">
-                        <img src="./assets/14.jpg" class="imagem de sabonetes com decoração em toalhas de banho">
-                        <img src="./assets/16.jpg" class="imagem de sombras de cores branca, marrom e rosa">
-                        <img src="./assets/20.jpg" class="maquiagens diversas">
-                        <img src="./assets/22.jpg" class="maquiagens diversas">
+                    <div class="slide">
+                        <img src="./assets/6.jpg" alt="">
+                        <h6>Perfumes</h6>
                     </div>
-                    <div class="saiba__mais_texto">
-                        <a href="#" class="botao__saiba__mais">Saiba mais</a>
-                    </div>    
-                </section>
-                
-            </nav>
-        
+                    <div class="slide">
+                        <img src="./assets/beleza-4.jpg" alt="">
+                        <h6>Acessórios</h6>
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/beleza-5.jpg" alt="">
+                        <h6>Ageless</h6>
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/beleza-2.jpg" alt="">
+                        <h6>Sabonetes</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grupo">
+            <div class="grupo__container">
+                <div class="titulo">
+                    <h3>Conheça nosso grupo</h3>
+                    <h4>Várias empresas no ramos dos cosméticos</h4>
+                </div>
+                <div class="grupo__links">
+                    <div class="link">
+                        <a href="https://www.boticario.com.br/">O Boticário</a>
+                    
+                    </div>
+                    <div class="link">
+                        <a href="https://www.eudora.com.br/">EUDORA</a>
+                        
+                    </div>
+                    <div class="link">
+                        <a href="https://www.quemdisseberenice.com.br/">Quem disse Berenice?</a>
+                        
+                    </div>
+                    <div class="link">
+                        <a href="https://www.vult.com.br/">Vult</a>
+                        
+                    </div>
+                    <div class="link">
+                        
+                        <a href="https://www.belezanaweb.com.br/">Beleza na Web</a>
+                        
+                    </div>
+                    <div class="link">
+                        <a href="https://www.ouiparis.com/">O.U.I. Paris</a>
+                        
+                    </div>
+                    <div class="link">
+                        <a href="https://drjones.com.br/">Dr. JONES</a>
+                      
+                    </div>
+                    <div class="link">
+                        <a href="https://toquetocosmeticos.com.br/">tô.que.tô cosméticos</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
-    <!-- <footer class="rodape">
+    <footer class="rodape">
         <h4 class="rodape__titulo">Curso FullStack - JavaScript - Projeto Desenvolve  - Grupo Boticário - 2024</h4>
-    </footer> -->
-   <script src="scripts.js"></script>
-   
+    </footer>
+   <script src="scripts/clear-pesquisa.js"></script>
+   <script src="scripts/slides.js"></script>
 </body>
 </html>

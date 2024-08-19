@@ -1,0 +1,70 @@
+.cadastro {
+    display: block;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 1vh;
+    margin: 1em .5em;
+
+.cadastro__input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--cor-rosa);
+    border-radius: .5em;
+ 
+}
+
+.cadastro__titulo {
+    text-align: center;
+ 
+}
+
+.titulo__h4{
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+    margin: 1em;
+    
+}
+
+.titulo__h6{
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+    margin: 1em;
+    
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.input__email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: .5em;
+}
+
+.contato__email {
+    font-family: var(--fonte-principal);
+    color: var(--cor-fonte-principal);
+    width: 30vw;
+    height: 1vh;
+    padding: 1em;
+    font-size: .4em;
+    font-weight: 700;
+    text-align: left;
+    border-radius: 2em;
+    border: .2em solid var(--cor-dourado);
+}
+
+.input__enviar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 1em;
+
+}
